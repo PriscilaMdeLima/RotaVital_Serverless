@@ -122,7 +122,7 @@ São valores de **demonstração** (simplificações assumidas, não dados ofici
 python -m unittest discover -v
 ```
 
-30 testes (`tests/`): distância (ponto igual, simetria, Recife–Fortaleza ≈ 630 km), montagem da guia (campos, formato do número, interestadual, SLA dentro e fora do prazo, normalização), validações (campos obrigatórios, quantidade, prioridade, coordenadas, UF, origem = destino) e a camada HTTP (201, 400, 405, JSON malformado). Saída em [`docs/evidencias/saida_testes.txt`](docs/evidencias/saida_testes.txt): **30 testes, OK**.
+30 testes (`tests/`): distância (ponto igual, simetria, Recife–Fortaleza ≈ 630 km), montagem da guia (campos, formato do número, interestadual, SLA dentro e fora do prazo, normalização), validações (campos obrigatórios, quantidade, prioridade, coordenadas, UF, origem = destino) e a camada HTTP (201, 400, 405, JSON malformado). Saída em [`docs/evidencias/saida_testes.txt`](docs/evidencias/saida_testes.txt): **30 TESTES, OK**.
 
 > Os testes de HTTP usam o Flask diretamente (sem subir o emulador), o que os deixa rápidos. O emulador real é exercitado com `cliente_demo.py`.
 
